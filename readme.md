@@ -20,14 +20,23 @@ A curated collection of projects, experiments, and theoretical explorations in *
 
 ## 📂 Repository Structure
 
+Here’s a polished version of your markdown that renders nicely on GitHub, using proper formatting for file trees and clear section descriptions:
+
+
+# GenAI Research Repository
+
+This repository organizes projects, experiments, and theoretical resources related to Generative AI, with a focus on practical implementations and cloud integration.
+```
 genai-research/
-├── rag/ # RAG implementations (dense/sparse/hybrid retrieval)
-├── agents/ # AI agent designs and multi-agent workflows
-├── embeddings/ # Embedding model comparisons and pipelines
-├── llm_evaluation/ # Benchmarks and qualitative assessments
-├── aws/ # AWS-specific deployment templates (CDK/CloudFormation)
-├── notebooks/ # Exploratory Jupyter notebooks
-└── docs/ # Theory notes, architecture diagrams, and references
+├── rag/                  # Implementations of Retrieval-Augmented Generation (RAG) — dense, sparse, and hybrid retrieval strategies
+├── agents/               # AI agent architectures and multi-agent orchestration workflows
+├── embeddings/           # Embedding model benchmarks, comparisons, and pipeline implementations
+├── llm_evaluation/       # LLM evaluation frameworks, benchmarks, and qualitative analysis
+├── aws/                  # AWS-specific deployment templates using CDK and CloudFormation
+├── notebooks/            # Exploratory Jupyter notebooks for prototyping and experimentation
+└── docs/                 # Theory notes, system architecture diagrams, and reference materials
+```
+
 
 ## ☁️ AWS Integration
 This repo leverages AWS services for scalable, secure GenAI applications:
